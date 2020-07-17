@@ -186,4 +186,5 @@
 //     console.log('Good Evening!');
 //     break;
 //     default: console.log("wrong input");
+//     break;
 // };
