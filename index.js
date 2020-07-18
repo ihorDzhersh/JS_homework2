@@ -77,9 +77,9 @@
 // if( a<=0 || 
 //     b<=0 || 
 //     c<=0 ||
-//     typeof(a)!=Number ||
-//     typeof(a)!=Number ||
-//     typeof(a)!=Number 
+//     isNaN(a) ||
+//     isNaN(b) ||
+//     isNaN(c)  
 //     ){ console.log("incorrect data!!!")
 // }else{
 //         let p = 1/2*(a + b + c);
