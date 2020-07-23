@@ -112,77 +112,18 @@
 // // else if (hours <= 17)console.log('Good Afternon!');
 // // else console.log('Good Evening!');
 
-// switch(hours){
-//     case 23:  
+// let hours = 11;
+// switch(true){
+//     case (hours<=5 || hours>23):  
 //     console.log('Good Night!');
 //     break;
-//     case 0:  
-//     console.log('Good Night!');
-//     break;  
-//     case 1:  
-//     console.log('Good Night!');
-//     break;
-//     case 2:  
-//     console.log('Good Night!');
-//     break;
-//     case 3:  
-//     console.log('Good Night!');
-//     break;
-//     case 4:  
-//     console.log('Good Night!');
-//     break;
-//     case 5:  
-//     console.log('Good Night!');
-//     break;
-//     case 6:  
+//     case (hours<=11):  
 //     console.log('Good Morning!');
 //     break;
-//     case 7:  
-//     console.log('Good Morning!');
-//     break;
-//     case 8:  
-//     console.log('Good Morning!');
-//     break;
-//     case 9:  
-//     console.log('Good Morning!');
-//     break;
-//     case 10:  
-//     console.log('Good Morning!');
-//     break;
-//     case 11:  
-//     console.log('Good Morning!');
-//     break;
-//     case 12: 
+//     case(hours<=17):
 //     console.log('Good Afternon!');
 //     break;
-//     case 13: 
-//     console.log('Good Afternon!');
-//     break;
-//     case 14: 
-//     console.log('Good Afternon!');
-//     break;
-//     case 15: 
-//     console.log('Good Afternon!');
-//     break;
-//     case 16: 
-//     console.log('Good Afternon!');
-//     break;
-//     case 17: 
-//     console.log('Good Afternon!');
-//     break;
-//     case 18: 
-//     console.log('Good Evening!');
-//     break;
-//     case 19: 
-//     console.log('Good Evening!');
-//     break;
-//     case 20: 
-//     console.log('Good Evening!');
-//     break;
-//     case 21: 
-//     console.log('Good Evening!');
-//     break;
-//     case 22: 
+//     case(hours<=23):
 //     console.log('Good Evening!');
 //     break;
 //     default: console.log("wrong input");
